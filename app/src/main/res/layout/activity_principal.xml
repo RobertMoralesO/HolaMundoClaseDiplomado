@@ -29,7 +29,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:ems="10"
             android:id="@+id/txtNumeroUno"
             android:hint="@string/numero_uno"
@@ -38,7 +38,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:ems="10"
             android:id="@+id/txtNumeroDos"
             android:hint="@string/numero_dos" />
