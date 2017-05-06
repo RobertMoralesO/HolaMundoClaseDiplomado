@@ -43,6 +43,11 @@
             android:id="@+id/txtNumeroDos"
             android:hint="@string/numero_dos" />
 
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmbOperaciones" />
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
